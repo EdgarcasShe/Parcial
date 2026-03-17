@@ -1,0 +1,38 @@
+// ================= script.js =================
+
+const team = [
+  {
+    name: "Sherry Eileen Pichiyá Ovalle",
+    info: "17 años • Guatemala, Chimaltenango",
+    details: "Ama los gatos 🐱, le encanta leer 📚 y ama a Satoru 💙",
+    photo: "https://i.pravatar.cc/150?img=5"
+  },
+  {
+    name: "Adriana Lucia Martinez Martinez",
+    info: "17 años • Guatemala, Chimaltenango",
+    details: "Color favorito: morado 💜, le encanta dormir 😴 y tiene 3 hermanas 👭",
+    photo: "https://i.pravatar.cc/150?img=3"
+  },
+  {
+    name: "Edgar Rubén Castellanos Tobar",
+    info: "18 años • Guatemala, Chimaltenango",
+    details: "Ama los gatos 🐱, el fútbol ⚽, a su novia 💖, comer 🍔, el anime de romance 🎌 y es fan de Messi 🐐",
+    photo: "https://i.pravatar.cc/150?img=12"
+  }
+];
+
+const container = document.getElementById("team-container");
+
+team.forEach(member => {
+  const card = document.createElement("div");
+  card.classList.add("card");
+
+  card.innerHTML = `
+    <img src="${member.photo}" alt="Foto de ${member.name}">
+    <h2>${member.name}</h2>
+    <p>${member.info}</p>
+    <p>${member.details}</p>
+  `;
+
+  container.appendChild(card);
+});
