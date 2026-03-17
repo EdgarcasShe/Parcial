@@ -1,0 +1,34 @@
+// Datos de los integrantes
+const team = [
+  {
+    name: "Nombre Completo",
+    email: "correo@email.com",
+    role: "Rol en el proyecto",
+    contribution: "Descripción de lo que hizo",
+    photo: "https://via.placeholder.com/100"
+  },
+  {
+    name: "Otro Integrante",
+    email: "otro@email.com",
+    role: "Diseñador",
+    contribution: "Diseño UI",
+    photo: "https://via.placeholder.com/100"
+  }
+];
+
+const container = document.getElementById("team-container");
+
+team.forEach(member => {
+  const card = document.createElement("div");
+  card.classList.add("card");
+
+  card.innerHTML = `
+    <img src="${member.photo}" alt="Foto de ${member.name}">
+    <h2>${member.name}</h2>
+    <p><strong>Correo:</strong> ${member.email}</p>
+    <p><strong>Rol:</strong> ${member.role}</p>
+    <p><strong>Contribución:</strong> ${member.contribution}</p>
+  `;
+
+  container.appendChild(card);
+});
