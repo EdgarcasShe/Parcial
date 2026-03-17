@@ -1,27 +1,25 @@
 # ================= README.md =================
 
-# Proyecto: Página Web del Equipo
+# 💖 Página Web del Equipo
 
 ## Descripción
-Página web responsive que muestra la información de los integrantes del equipo.
+Página web estética y responsive que muestra la información de los integrantes del equipo con un diseño moderno.
 
-## Tecnologías usadas
+## Tecnologías
 - HTML
 - CSS
 - JavaScript
 
-## Cómo ejecutar
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
-   ```
-2. Abre `index.html` en tu navegador.
+## Cómo usar
+1. Clonar repositorio
+2. Abrir index.html
 
-## Integrantes y aportes
-- Nombre 1: HTML
-- Nombre 2: CSS
-- Nombre 3: JavaScript
+## Integrantes
+- Sherry: Información y contenido
+- Adriana: Diseño
+- Edgar: Desarrollo
 
-## Notas
-- Diseño responsive
-- Código modular
+## Extras
+- Diseño aesthetic ✨
+- Responsive 📱
+- Animaciones suaves 💫
